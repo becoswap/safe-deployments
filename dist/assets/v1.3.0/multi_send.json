@@ -1,0 +1,27 @@
+{
+    "defaultAddress": "0x30FC0807f86ADE1157609AF5521751873eB21AE2",
+    "released": true,
+    "contractName": "MultiSend",
+    "version": "1.3.0",
+    "networkAddresses": {},
+    "abi": [
+        {
+            "inputs": [],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes",
+                    "name": "transactions",
+                    "type": "bytes"
+                }
+            ],
+            "name": "multiSend",
+            "outputs": [],
+            "stateMutability": "payable",
+            "type": "function"
+        }
+    ]
+}
